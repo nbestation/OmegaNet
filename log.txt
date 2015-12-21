@@ -1,0 +1,19 @@
+% This is the log file
+% 0: No connection
+% 1: Up connection
+% 2: Down connection
+% 3: Both connection
+
+		upper	lower	status
+Switch[0][0]:	2	2	blocked
+Switch[0][1]:	2	1	unblocked
+Switch[0][2]:	1	2	unblocked
+Switch[0][3]:	1	1	blocked
+Switch[1][0]:	0	2	unblocked
+Switch[1][1]:	2	1	unblocked
+Switch[1][2]:	1	3	blocked
+Switch[1][3]:	1	0	unblocked
+Switch[2][0]:	0	3	blocked
+Switch[2][1]:	1	2	unblocked
+Switch[2][2]:	1	2	unblocked
+Switch[2][3]:	3	0	blocked
